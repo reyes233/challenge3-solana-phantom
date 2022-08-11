@@ -158,7 +158,7 @@ function App() {
             Connect Wallet
           </button>
         )}
-        {provider && walletKey && <p>Connected account</p> }
+        {provider && walletKey && <p>Wallet Address : {walletKey.toString()}</p> }
         {!provider && (
           <p>
             No provider found. Install{" "}
